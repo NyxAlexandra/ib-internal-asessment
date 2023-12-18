@@ -1,0 +1,100 @@
+on-sha:
+  title: "On the Secure Hash Algorithm family"
+  author:
+    - "Wouter Penard"
+    - "Tim van Workhoven"
+  url:
+    value: https://web.archive.org/web/20160330153520/https://www.staff.science.uu.nl/~werkh108/docs/study/Y5_07_08/infocry/project/Cryp08.pdf
+    date: 2023-11-21
+  type: article
+  note: "archived from original"
+
+sha-spec:
+  title: "Anouncing the Secure Hash Standard"
+  url:
+    value: http://csrc.nist.gov/publications/fips/fips180-2/fips180-2withchangenotice.pdf
+    date: 2023-11-22
+  type: article
+
+hash-function-sha-256:
+  title: "The cryptographic hash function SHA-256"
+  url:
+    value: https://helix.stormhub.org/papers/SHA-256.pdf
+    date: 2023-11-22
+  type: article
+
+cryptographic-hash-function:
+  title: "Cryptographic hash function"
+  url:
+    value: https://en.wikipedia.org/wiki/Cryptographic_hash_function
+    date: 2023-11-22
+  type: web
+
+md5-wiki:
+  title: "MD5"
+  url:
+    value: https://en.wikipedia.org/wiki/MD5
+    date: 2023-11-23
+  type: web
+
+colision-attacks-md5:
+  title: "Fast Collision Attack on MD5"
+  author:
+    - "Tao Xie"
+    - "Fanbao Liu"
+    - "Dengguo Feng"
+  url:
+    value: https://eprint.iacr.org/2013/170.pdf
+    date: 2023-11-22
+  type: article
+
+low-entropy-keys:
+  title: "Secure Applications of Low-Entropy Keys"
+  author:
+    - "John Kelsey"
+    - "Bruce Schneier"
+    - "Chris Hall"
+    - "David Wagner"
+  url:
+    value: https://www.schneier.com/wp-content/uploads/2016/02/paper-low-entropy.pdf
+    date: 2023-11-21
+  type: article
+
+crypto-algorithms:
+  title: "crypto-algorithms"
+  author:
+    name: "Brad Conte"
+    alias: "B-Con"
+  url: https://github.com/B-Con/crypto-algorithms
+  type: repository
+
+adler-checksums:
+  title: "Revisiting Fletcher and Adler Checksums"
+  author: "Theresa Maxino"
+  url:
+    value: http://www.zlib.net/maxino06_fletcher-adler.pdf
+    date: 2023-11-26
+  type: article
+
+adler32-wiki:
+  title: "Adler-32"
+  url:
+    value: https://en.wikipedia.org/wiki/Adler-32
+    date: 2023-11-26
+  type: web
+
+time-complexity-wiki:
+  title: "Time complexity"
+  url:
+    value: https://en.wikipedia.org/wiki/Time_complexity
+    date: 2023-12-17
+  type: web
+
+hash-function-wiki:
+  title: "Hash function"
+  url:
+    value: https://en.wikipedia.org/wiki/Hash_function
+    date: 2023-12-17
+  type: web
+
+# https://datatracker.ietf.org/doc/html/rfc3309
