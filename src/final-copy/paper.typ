@@ -185,14 +185,14 @@ Some example operations:
   table(
     columns: (auto, auto, auto, auto),
     [Operation], [Input],       [Output], [Comment],
-    $<< 3$,      $011001001_2$, $1100100100_2$, [Useful for mixing up the hash.
+    $<< 3$,      $011001001_2$, $110010010_2$, [Useful for mixing up the hash.
                                                 Usually used in conjunction with
                                                 other operations for more
                                                 randomness],
     $>>> 3$,     $011001001_2$, $001101001_2$, [Similar to SHR in purpose, except
                                                ROTR doesn't lose data when exceeding
                                                the size of the set of bits.],
-    $mod 7$,    $011001001_2$,  $000000101_2$, [Introduces a lot of small variations
+    $mod 7$,     $011001001_2$, $000000101_2$, [Introduces a lot of small variations
                                                when combined with other operations
                                                (like bit shifts).],
   ),
@@ -212,10 +212,10 @@ library Zlib @adler32-wiki. It can be expressed mathematically:
   $
     f(x) &= a_n or (b_n << 16) \
     "where" \
-    a_0 &= 1 \
-    b_0 &= 0 \
-    a_i &= (a_(i - 1) + x_i) mod 65521 \
-    b_i &= (b_(i - 1) + a_i) mod 65521
+     a_0 &= 1 \
+     b_0 &= 0 \
+     a_i &= (a_(i - 1) + x_i) mod 65521 \
+     b_i &= (b_(i - 1) + a_i) mod 65521
   $
 )
 
